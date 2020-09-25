@@ -1,0 +1,616 @@
+
+body {
+    position: relative;
+    font-family: "Roboto" sans-serif;
+    color: rgba(65, 61, 75, 0.749);
+    line-height: 1.571;
+    margin: 0 auto;
+    max-width: 1600px;
+    min-width: 320px;
+}
+h2 {
+            font-size: 22px;
+                    font-family: "PlayfairDisplay";
+    color: rgb(65, 61, 75);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h3 {
+            font-size: 14px;
+    font-family: "Roboto" sans-serif;
+    color: rgb(65, 61, 75);
+    font-weight: bold;
+    line-height: 1.2;
+}
+p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: rgba(65, 61, 75, 0.749);
+    line-height: 1.571;
+}
+a.btn{
+    font-size: 16px;
+                font-family: "HammersmithOne" sans-serif;
+    color: rgb(0, 224, 208);
+    line-height: 1.2;
+    background: transparent;
+    border: 1px solid rgb(0, 224, 208);
+}
+            .hr {
+                position: relative;
+                height: 1px;
+                z-index: 1000;                   
+            }
+.nav-wrap {
+    position: absolute;
+    width: 100%;
+    z-index: 10; 
+}
+.navbar {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    max-width: 960px;
+    z-index: 1000;
+}
+
+#home {
+    position: relative;
+}
+#myCarousel {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50px;
+}
+#myCarousel .carousel-item {
+    width: 100%;
+    min-height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-indicators li {
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 50%;
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    z-index: 392;
+    cursor: pointer;
+}
+.carousel-indicators li.active {
+    border: 1px solid rgb(0, 224, 208);
+    border-radius: 50%;
+    background-color: rgb(0, 224, 208);
+    width: 10px;
+    height: 10px;
+    z-index: 392;
+}
+.overlay {
+    background-image: -moz-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
+    opacity: 0.851;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 370;
+}
+.carousel-caption {   
+    max-width: 770px;
+    margin: 0 auto;
+    color: #fff;
+    z-index: 1000;
+    padding-bottom: 29%;
+}
+h2.carousel-title {
+    position: relative; 
+    display: inline-block; 
+    font-size: 32px;
+                        font-family: "PlayfairDisplay";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    padding-bottom: 30px;
+}
+h2.carousel-title::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: rgb(0, 224, 208);
+    top: 80%;
+    width: 13%;
+    left: 43%;
+}
+p.carousel-txt {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.714;
+    padding-bottom: 30px;
+    z-index: 370;
+}
+
+/*------------nav------------*/
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    font-size: 13px;
+    font-family: "Roboto" sans-serif;
+    color: rgb(0, 224, 208);
+    line-height: 1.2;
+    z-index: 374;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 13px;
+    font-family: "Roboto" sans-serif;
+    color: rgb(250, 250, 250);
+    line-height: 1.2;
+    z-index: 374;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+font-size: 13px;
+font-family: "Roboto" sans-serif;
+color: rgb(0, 224, 208);
+line-height: 1.2;
+z-index: 374;
+}
+
+/*-------------about----------------*/
+
+section#about {
+    position: relative; 
+    padding: 50px 0 0 0;
+}
+.about-video {
+    position: relative; 
+}
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.video {
+    position: relative;
+    z-index: -1; 
+}
+.video-button {
+    position: relative;
+   /* position: absolute;
+    top: 48%;
+    right: 46%;*/
+    color: rgba(250, 250, 250);
+    z-index: 1000;
+}
+#triangle_right {
+    position: relative;
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    -o-transform: rotate(90deg); 
+    transform: rotate(90deg); 
+    cursor: pointer;
+}
+#triangle_right:after {
+    position: absolute;
+    content: "";
+    top: -24px;
+    left: -6px;
+    width: 100px; 
+    height: 100px;
+    background: transparent;
+    border-radius: 50%;
+    border: 4px solid rgb(250, 250, 250);
+}
+/*.border {
+    border: 10px solid #fff;
+    border-radius: 50%;
+    padding: 5px 0;
+}*/
+/*---------expertise----------------*/
+
+section#expertise {
+    position: relative;
+}
+section#expertise .hr {
+    background-color: rgb(65, 61, 75);
+    opacity: 0.302;
+}
+p.expertise {
+    position: relative;
+    font-size: 14px;
+                font-family: "PlayfairDisplay";
+    color: rgba(47, 45, 53, 0.749);
+    line-height: 1.2; 
+}
+p.expertise::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: rgb(65, 61, 75);
+    top: 100%;
+    width: 13%;
+    left: 43%;
+    opacity: 0.302;
+    /*width: 50px;*/
+}
+p.expertise-txt {
+    font-size: 14px;
+    font-family: "Roboto" sans-serif;
+    color: rgba(51, 51, 51, 0.749);
+    line-height: 1.571;
+}
+
+/*-----------teams--------------*/
+
+section#teams {
+    position: relative;     
+}
+h2.teams {
+    position: relative;
+    color: rgba(255, 255, 255);
+    z-index: 1000;
+}
+p.teams {
+    position: relative;
+                font-family: "PlayfairDisplay";
+    color: rgb(249, 249, 249);
+    z-index: 1000;        
+}
+p.teams::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    width: 13%;
+    left: 43%;
+    opacity: 0.2;
+    z-index: 1000;
+    /*width: 50px;*/
+}       
+.bl {
+    position: relative;
+    background-color: transparent;
+    color: rgba(250, 250, 250);
+    border: 1px solid  rgb(255, 255, 255, 0.302);
+    height: 100%;
+    z-index: 1000;
+}
+.bl .img-teams {
+    background-color: rgba(250, 250, 250);
+    width: 100%;
+    padding-top: 100%;
+}
+.bl h3{
+    color: rgba(250, 250, 250);
+}
+.bl p{
+   color: rgba(250, 250, 250);
+}
+.bl p.teams-txt {
+    position: relative;
+    font-size: 13px;
+    font-family: "Roboto" sans-serif;
+    color: rgba(250, 250, 250, 0.702);
+    line-height: 1.2;           
+}
+p.teams-inf {
+    position: relative;
+    font-size: 14px;
+    font-family: "Roboto" sans-serif;
+    color: rgb(243, 243, 243, 0.702);
+    line-height: 1.2;
+    z-index: 1000;     
+}
+.btn-teams-inf {
+    position: relative;   
+}
+.btn-teams-inf a.btn {
+    position: relative;
+    font-size: 16px;
+                font-family: "HammersmithOne", sans-serif;
+    color: rgb(0, 224, 208);
+    line-height: 1.2;
+    z-index: 1000;
+}
+
+/*-----------works--------------*/
+
+section#works {
+    position: relative; 
+}
+section#works p{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(65, 61, 75);
+    line-height: 1.2; 
+}
+.works-row {
+    margin: 0 -15px;
+}
+.relation{
+	position: relative;	
+}
+.relation-ratio{	
+padding-top: 80%;
+	height: 0;		
+}
+.relation-content{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    top: 0;
+}
+
+.bg-gray-1 {
+    background-color: #b6b6b6;
+}
+.bg-gray-2 {
+    background-color: #acacac;
+}
+.bg-gray-3 {
+    background-color: #a1a1a1;
+}
+.bg-gray-4 {
+    background-color: #8a8a8a;
+}
+.bg-gray-5 {
+    background-color: #a4a4a4;
+}
+
+
+/*------------owl-carousel------------*/
+.owl-carousel {
+    height: 300px;
+}
+.owl-item > div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
+}
+.owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+}
+.owl-carousel {
+    position: relative;
+    z-index: 1000;
+}
+.owl-theme .owl-controls .owl-nav [class*='owl-'] {
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+}
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+.owl-carousel .owl-prev {
+    left: -70px;
+}
+.owl-carousel .owl-next {
+    right: -70px;
+} 
+.owl-carousel img.nav {
+    width: 40px;
+    height: auto;
+}
+
+
+/*----------reviews------*/
+
+
+section#reviews {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 10px 0;
+}
+section#reviews .slide{
+    position: relative; 
+    z-index: 1000;
+}
+section#reviews .reviews-txt {
+    position: relative; 
+    z-index: 1000;
+}
+.reviews-img {
+    position: relative; 
+    z-index: 1000;
+}
+section#reviews .reviews-text p.quotes {
+    position: relative; 
+    font-size: 16px;
+            font-family: "PlayfairDisplay";
+    color: rgba(255, 255, 255, 0.851);
+    line-height: 1.625;
+    z-index: 1000;      
+}
+section#reviews .name-txt p.name-p {
+    position: relative;  
+    font-size: 14px;
+    font-family: "Roboto" sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.571;
+    z-index: 1000;     
+}
+section#reviews .name-txt p {
+    position: relative;
+    font-size: 13px;
+    font-family: "Roboto" sans-serif;
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 1.692;
+    z-index: 1000;  
+}
+
+/*--------contact--------------*/
+
+section#contact .btn-form {
+    font-size: 16px;
+    font-family: "HammersmithOne" sans-serif;
+    color: rgb(0, 224, 208);
+    background: transparent;
+    line-height: 1.2;
+    text-align: center;
+    border: 1px solid rgb(0, 224, 208); 
+}
+
+/*----------footer----------*/
+section#footer {
+    padding: 20px 0;
+    position: relative;
+}
+section#footer p.footer-txt {
+    position: relative;
+    font-size: 14px;
+    font-family: "Roboto" sans-serif;
+    color: rgba(255, 255, 255);
+    line-height: 1.857;    
+}
+.footer .touch,
+.footer .studio {
+    padding-left: -15px;
+}
+.footer h3 {
+    font-size: 15px;
+    font-family: "Roboto" sans-serif;
+    color: rgba(255, 255, 255);
+    line-height: 1.733;     
+}
+.footer address {
+    font-size: 14px;
+    font-family: "Roboto" sans-serif;
+    color: rgba(255, 255, 255);
+    line-height: 1.857; 
+    padding-left: 20px;     
+}
+.footer img.icon {
+    position: relative;
+    float: left;
+    max-width: 100px;
+    z-index:1000;
+}
+.footer .phone a {
+    font-size: 14px;
+    font-family: "Roboto" sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.857; 
+    padding-left: 5px;     
+}
+.footer p.copyright {
+    font-size: 14px;
+    font-family: "Roboto" sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.857;      
+}
+
+  
+
+.footer p.subscribe {
+    font-size: 14px;
+    font-family: "Roboto" sans-serif;
+    color: rgba(255, 255, 255, 0.749);
+    line-height: 1.857;
+    padding: 11px 13px 12px 12px;
+    margin: 0 9px 10px 15px; 
+    border: 1px solid rgb(255, 255, 255, 0.502);
+}
+.footer img.telegram {
+    background: rgb(255, 255, 255, 0.502);
+    border: 1px solid rgba(255, 255, 255, 0.502);
+    padding: 11px 20px;
+}
+
+/*------------------*/
+
+.icon-sprite{
+	position: relative;
+	            height: 47px;
+	text-align: center;
+	box-sizing: border-box;				
+}
+.icon-sprite ul{
+    -webkit-padding-start: 0;
+}
+.icon-social{
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	height: 47px;
+	margin:  0 5px;
+	background: url(../images/sprite.gif) no-repeat;
+	cursor: pointer;
+}
+
+.icon-social.icon-facebook{
+	background-position: -8px 0;
+}
+.icon-social.icon-twitter{
+	background-position: -52px 0;
+}
+.icon-social.icon-dribbble{
+	background-position: -96px 0;
+}
+.icon-social.icon-instagram{
+	background-position: -139px 0;
+}
+.icon-social.icon-google{
+	background-position: -180px 0;
+}
+.icon-social.icon-youtube{
+	background-position: -222px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------*/
+.bartChart{
+	position: relative;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	margin-left:15px;
+}
