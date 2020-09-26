@@ -15,7 +15,6 @@ h2 {
     font-weight: bold;
     line-height: 1.2;
 }
-
 h3 {
             font-size: 14px;
     font-family: "Roboto" sans-serif;
@@ -37,11 +36,11 @@ a.btn{
     background: transparent;
     border: 1px solid rgb(0, 224, 208);
 }
-            .hr {
-                position: relative;
-                height: 1px;
-                z-index: 1000;                   
-            }
+.hr {
+    position: relative;
+    height: 1px;
+    z-index: 1000;                   
+}
 .nav-wrap {
     position: absolute;
     width: 100%;
@@ -57,7 +56,6 @@ a.btn{
     max-width: 960px;
     z-index: 1000;
 }
-
 #home {
     position: relative;
 }
@@ -115,7 +113,7 @@ h2.carousel-title {
     position: relative; 
     display: inline-block; 
     font-size: 32px;
-                        font-family: "PlayfairDisplay";
+    font-family: "PlayfairDisplay";
     color: rgb(255, 255, 255);
     line-height: 1.2;
     padding-bottom: 30px;
@@ -155,11 +153,11 @@ p.carousel-txt {
     z-index: 374;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-font-size: 13px;
-font-family: "Roboto" sans-serif;
-color: rgb(0, 224, 208);
-line-height: 1.2;
-z-index: 374;
+    font-size: 13px;
+    font-family: "Roboto" sans-serif;
+    color: rgb(0, 224, 208);
+    line-height: 1.2;
+    z-index: 374;
 }
 
 /*-------------about----------------*/
@@ -188,9 +186,6 @@ section#about {
 }
 .video-button {
     position: relative;
-   /* position: absolute;
-    top: 48%;
-    right: 46%;*/
     color: rgba(250, 250, 250);
     z-index: 1000;
 }
@@ -214,11 +209,7 @@ section#about {
     border-radius: 50%;
     border: 4px solid rgb(250, 250, 250);
 }
-/*.border {
-    border: 10px solid #fff;
-    border-radius: 50%;
-    padding: 5px 0;
-}*/
+
 /*---------expertise----------------*/
 
 section#expertise {
@@ -231,7 +222,7 @@ section#expertise .hr {
 p.expertise {
     position: relative;
     font-size: 14px;
-                font-family: "PlayfairDisplay";
+    font-family: "PlayfairDisplay";
     color: rgba(47, 45, 53, 0.749);
     line-height: 1.2; 
 }
@@ -265,7 +256,7 @@ h2.teams {
 }
 p.teams {
     position: relative;
-                font-family: "PlayfairDisplay";
+    font-family: "PlayfairDisplay";
     color: rgb(249, 249, 249);
     z-index: 1000;        
 }
@@ -279,7 +270,6 @@ p.teams::after{
     left: 43%;
     opacity: 0.2;
     z-index: 1000;
-    /*width: 50px;*/
 }       
 .bl {
     position: relative;
@@ -321,7 +311,7 @@ p.teams-inf {
 .btn-teams-inf a.btn {
     position: relative;
     font-size: 16px;
-                font-family: "HammersmithOne", sans-serif;
+    font-family: "HammersmithOne", sans-serif;
     color: rgb(0, 224, 208);
     line-height: 1.2;
     z-index: 1000;
@@ -354,7 +344,6 @@ padding-top: 80%;
 	height: 100%;
     top: 0;
 }
-
 .bg-gray-1 {
     background-color: #b6b6b6;
 }
@@ -371,8 +360,8 @@ padding-top: 80%;
     background-color: #a4a4a4;
 }
 
-
 /*------------owl-carousel------------*/
+
 .owl-carousel {
     height: 300px;
 }
@@ -414,9 +403,7 @@ padding-top: 80%;
     height: auto;
 }
 
-
 /*----------reviews------*/
-
 
 section#reviews {
     position: relative;
@@ -477,6 +464,7 @@ section#contact .btn-form {
 }
 
 /*----------footer----------*/
+
 section#footer {
     padding: 20px 0;
     position: relative;
@@ -524,9 +512,6 @@ section#footer p.footer-txt {
     color: rgb(255, 255, 255);
     line-height: 1.857;      
 }
-
-  
-
 .footer p.subscribe {
     font-size: 14px;
     font-family: "Roboto" sans-serif;
@@ -546,7 +531,7 @@ section#footer p.footer-txt {
 
 .icon-sprite{
 	position: relative;
-	            height: 47px;
+	height: 47px;
 	text-align: center;
 	box-sizing: border-box;				
 }
@@ -562,7 +547,6 @@ section#footer p.footer-txt {
 	background: url(../images/sprite.gif) no-repeat;
 	cursor: pointer;
 }
-
 .icon-social.icon-facebook{
 	background-position: -8px 0;
 }
@@ -582,32 +566,8 @@ section#footer p.footer-txt {
 	background-position: -222px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------------*/
+
 .bartChart{
 	position: relative;
 	border-left:2px solid black;
